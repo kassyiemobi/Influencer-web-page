@@ -1,6 +1,7 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@400;500&display=swap");
 * {
   box-sizing: border-box;
-  font-family: "Times New Roman", Times, serif;
+  font-family: Rubik;
 }
 .container {
   padding-left: 105px;
@@ -38,17 +39,129 @@
   display: flex;
   justify-content: space-between;
 }
+.figure-1 {
+  top: 90px;
+  left: 699px;
+  width: 631px;
+  height: 624px;
+}
+.buy-sell {
+  top: 230px;
+  left: 102px;
+  width: 84px;
+  height: 22px;
+  text-align: left;
+  font: normal normal normal 18px/56px Rubik;
+  letter-spacing: 0px;
+  color: #646464;
+  opacity: 1;
+}
+.social {
+  top: 261px;
+  left: 102px;
+  width: 556px;
+  /* UI Properties */
+  text-align: left;
+  font: normal normal medium 40px/56px Rubik;
+  letter-spacing: 0px;
+  color: #2c2c2c;
+  opacity: 1;
+}
+.welcome {
+  width: 484px;
+  height: 84px;
+  text-align: left;
+  letter-spacing: 0px;
+  color: #444444;
+  opacity: 1;
+}
+.btn1 {
+  top: 506px;
+  left: 102px;
+  width: 170px;
+  height: 44px;
+  background: #fe0a74 0% 0% no-repeat padding-box;
+  border-radius: 8px;
+  opacity: 1;
+}
+.btn2 {
+  top: 506px;
+  left: 286px;
+  width: 170px;
+  height: 44px;
+  background: #270212 0% 0% no-repeat padding-box;
+  opacity: 1;
+  border-radius: 8px;
+  color: white;
+}
+.btn3 {
+  top: 1177px;
+  left: 658px;
+  width: 170px;
+  height: 44px;
+  /* UI Properties */
+  background: #fe0a74 0% 0% no-repeat padding-box;
+  border-radius: 8px;
+  opacity: 1;
+}
 .s-section {
+  top: 814px;
+  left: 0px;
+  width: 1366px;
+  height: 587px;
+  background: #fbfbfb 0% 0% no-repeat padding-box;
+  opacity: 1;
   display: flex;
   justify-content: space-between;
 }
-
+.rectangle {
+  top: 891px;
+  left: 105px;
+  width: 315px;
+  height: 315px;
+  box-shadow: 0px 20px 40px #00000035;
+  border: 20px solid #fe0a74;
+  opacity: 1;
+}
+.figure-2 {
+  top: 912px;
+  left: 148px;
+  width: 426px;
+  height: 412px;
+}
+.sell-accounts {
+  top: 902px;
+  left: 658px;
+  width: 556px;
+  /* UI Properties */
+  text-align: left;
+  font: normal normal medium 35px/57px Rubik;
+  letter-spacing: 0px;
+  color: #2c2c2c;
+  opacity: 1;
+}
+.p-1 {
+  top: 1037px;
+  left: 658px;
+  width: 544px;
+  /* UI Properties */
+  text-align: left;
+  letter-spacing: 0px;
+  color: #444444;
+  opacity: 1;
+}
 .fth-section {
   display: flex;
   justify-content: space-between;
 }
 .hero-text {
   text-align: center;
+}
+.figure-3 {
+  top: 1519px;
+  left: 855px;
+  width: 426px;
+  height: 412px;
 }
 .final-text {
   text-align: center;
