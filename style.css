@@ -1,7 +1,7 @@
-@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@400;500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,900&display=swap");
+
 * {
   box-sizing: border-box;
-  font-family: Rubik;
 }
 .container {
   padding-left: 105px;
@@ -55,7 +55,9 @@
   width: 84px;
   height: 30px;
   text-align: left;
-  font: normal normal normal 18px/56px Rubik;
+  font-size: 18px;
+  margin-bottom: 0em;
+  font-weight: normal;
   letter-spacing: 0px;
   color: #646464;
   opacity: 1;
@@ -66,10 +68,13 @@
   width: 556px;
   /* UI Properties */
   text-align: left;
-  font: normal normal medium 40px/56px Rubik;
+  font-size: 42px;
+  font-weight: bold;
+  font-family: "Rubik-Meduim", sans-serif;
   letter-spacing: 0px;
   color: #2c2c2c;
   opacity: 1;
+  margin-top: 0em;
 }
 .welcome {
   width: 484px;
@@ -87,6 +92,7 @@
   background: #fe0a74 0% 0% no-repeat padding-box;
   border-radius: 8px;
   opacity: 1;
+  margin-right: 0.5em;
 }
 .btn2 {
   top: 506px;
@@ -118,7 +124,7 @@
   border-radius: 8px;
   opacity: 1;
 }
-.s-section {
+.sec-section {
   top: 814px;
   left: 0px;
   width: 1366px;
@@ -126,7 +132,7 @@
   background: #fbfbfb 0% 0% no-repeat padding-box;
   opacity: 1;
   display: flex;
-  justify-content: space-between;
+  /* justify-content: space-between; */
   padding-top: 5%;
 }
 .rectangle {
@@ -143,11 +149,15 @@
   left: 148px;
   width: 426px;
   height: 412px;
+  position: absolute;
+  margin-left: 8em;
+  margin-top: 2.8em;
 }
-.fig-3 {
+.sec-all {
+  margin-left: 7em;
 }
 .s-div {
-  padding-right: 10px;
+  margin-left: 12em;
 }
 .sell-accounts {
   top: 902px;
@@ -155,7 +165,9 @@
   width: 556px;
   /* UI Properties */
   text-align: left;
-  font: normal normal medium 100px Rubik;
+  font-size: 40px;
+  font-weight: bold;
+  font-family: "Rubik-meduim";
   letter-spacing: 0px;
   color: #2c2c2c;
   opacity: 1;
@@ -175,18 +187,41 @@
   justify-content: space-between;
   padding-top: 5%;
   padding-bottom: 10%;
+  position: relative;
 }
 .fth-div {
   padding-top: 5%;
-  padding-right: 25%;
+  width: 30em;
 }
+.fth-img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  margin-left: 48em;
+  margin-top: 5.6em;
+}
+
 .fth-p {
   padding-bottom: 5%;
+  /* padding-right: 30em; */
+}
+.hero-img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  margin-top: 9em;
+  margin-left: 5em;
 }
 .hero-text {
   text-align: center;
   padding-bottom: 5em;
-  font: normal normal medium 35px/57px Rubik;
+  font: normal normal medium 35px/57px "Rubik";
   letter-spacing: 0px;
   color: #2c2c2c;
   opacity: 1;
@@ -197,8 +232,28 @@
   width: 426px;
   height: 412px;
 }
+.rectangle2 {
+  top: 1498px;
+  left: 812px;
+  width: 315px;
+  height: 315px;
+  margin-right: 20em;
+  /* UI Properties */
+  box-shadow: 0px 20px 40px #00000035;
+  border: 20px solid #fe0a74;
+  opacity: 1;
+}
 .sth-section {
   padding-bottom: 10em;
+  position: relative;
+}
+.rectangle3 {
+  width: 1003px;
+  height: 544px;
+  /* UI Properties */
+  box-shadow: 0px 20px 40px #00000035;
+  border: 20px solid #fe0a74;
+  opacity: 1;
 }
 .final-text {
   text-align: center;
@@ -208,7 +263,7 @@
   margin: auto;
   text-align: center;
   padding: 2px;
-  font: normal normal normal 16px/26px Rubik;
+  font: normal normal normal 16px/26px "Rubik";
   top: 3154px;
   left: 700px;
   width: 550px;
@@ -226,7 +281,7 @@
   padding: 10%;
   /* UI Properties */
   text-align: center;
-  font: normal normal normal 16px/26px Rubik;
+  font: normal normal normal 16px/26px "Rubik";
   letter-spacing: 0px;
   color: #76767a;
   opacity: 1;
